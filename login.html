@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Social Media Preview Tags -->
+<meta property="og:title" content="Farmers Community App">
+<meta property="og:description" content="Connect with farmers worldwide">
+<meta property="og:image" content="https://example.com/preview-image.jpg">
+<meta property="og:url" content="https://foremweb-de866.web.app">
+<meta name="twitter:card" content="summary_large_image">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Farmer Community</h1>
+        <div class="login-form">
+            <h2>Login</h2>
+            <h1>Farmer Community</h1>
+            <h2>Connect with fellow farmers</h2>
+            <input type="email" id="email" placeholder="Email">
+            <input type="password" id="password" placeholder="Password">
+            <button id="loginBtn">Login</button>
+            <button id="signupBtn">Sign Up</button>
+            <p id="error-message" class="error"></p>
+        </div>
+    </div>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-firestore-compat.js"></script>
+    
+    <script src="app.js"></script>
+    <script src="auth.js"></script>
+</body>
+</html>
